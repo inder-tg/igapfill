@@ -14,3 +14,6 @@ de MTY. Acá se hicieron pruebas del código en desarrollo de igapfill y el data
 muy pequeño. El código para producir la "criba de progreso" se originó en este proyecto.
 Idealmente, el curso de aplicación de las funciones en esta carpeta debe ser: 
 initial.R -> igapfillin.R -> final.R
+
+4. test_from_172_16_6_100 tiene código usado en el proyecto de las islas de calor
+de MTY. Las funciones de esta carpeta son parecidas a las de test_from_heatIslands.
