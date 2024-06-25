@@ -1,0 +1,16 @@
+
+FIRST entry on June 25, 2024
+
+1. test_for_documentation.R tiene código para realizar una prueba general de las
+funciones más importantes de igapfill, actualizado a la version 0.1.20.
+
+2. test_from_series_tiempo tiene código utilizado en la tesis de Shantall Ayala.
+Este código utilzó de la versión 0.1.20 de igapfill y se aplicó a imágenes más 
+grandes que las del proyecto Mohinora. OJO: Está la función split_replace_terra() 
+integrada a igapfill?
+
+3. test_from_heatIslands tiene código utilizado en el proyecto de las islas de calor
+de MTY. Acá se hicieron pruebas del código en desarrollo de igapfill y el dataset fue
+muy pequeño. El código para producir la "criba de progreso" se originó en este proyecto.
+Idealmente, el curso de aplicación de las funciones en esta carpeta debe ser: 
+initial.R -> igapfillin.R -> final.R
